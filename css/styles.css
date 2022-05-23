@@ -11479,8 +11479,8 @@ header.masthead h1, header.masthead .h1 {
   text-align: justify;
   background-color: whitesmoke;
   width: 100%;
-  height: 32%;
-  padding: 1em;
+  height: 33%;
+  padding: 0.5em;
 }
 #portfolio div{
   text-align: justify;

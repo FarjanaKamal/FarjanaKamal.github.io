@@ -11479,14 +11479,17 @@ header.masthead h1, header.masthead .h1 {
   text-align: justify;
   background-color: whitesmoke;
   width: 100%;
-  height: 33%;
+  height: 32%;
   padding: 1em;
 }
 #portfolio div{
   text-align: justify;
   padding: 0.5em;
+  background-color: #000;
 }
-
+#projects{
+  padding: 1em;
+}
 #logo{
   max-width: 5%;
   height:5%;
@@ -11495,4 +11498,9 @@ header.masthead h1, header.masthead .h1 {
   width: 100%;
   height: 250px;
   object-fit: cover;
+}
+@media (max-width:629px) {
+  img#page-top {
+    display: none;
+  }
 }

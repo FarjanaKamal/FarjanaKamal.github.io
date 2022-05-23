@@ -11493,13 +11493,13 @@ header.masthead h1, header.masthead .h1 {
   max-width: 5%;
   height:5%;
 }
-#portfolio img{
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-}
 @media (max-width:629px) {
   img#page-top {
     display: none;
   }
+}
+#portfolio img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
 }

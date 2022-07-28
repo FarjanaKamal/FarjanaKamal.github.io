@@ -11480,6 +11480,7 @@ header.masthead h1, header.masthead .h1 {
 
 #allProjects{
   display: flex;
+ 
 }
 #projects{
   display: flex;
@@ -11488,7 +11489,7 @@ header.masthead h1, header.masthead .h1 {
 }
 #eachProject{
   width: 100%;
-  min-height: 15vh;
+  height: 35vh;
   background-color: whitesmoke; 
 }
 #portfolio p{
@@ -11522,7 +11523,9 @@ header.masthead h1, header.masthead .h1 {
 }
 .tech{
   display: flex;
+  height: 10vh;
 align-items: flex-end;
+background-color: whitesmoke;
 }
 .tech ul{
   text-align: center;

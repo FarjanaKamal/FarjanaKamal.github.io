@@ -11396,7 +11396,8 @@ hr.divider-light {
 }
 #footerDv{
   color: white;
-  
+  width: 98%;
+  margin-left: 1%;
 }
 #skills li{
   margin-left: 0.5em;
@@ -11462,6 +11463,7 @@ header.masthead h1, header.masthead .h1 {
   transition: opacity 0.25s ease;
   text-align: center;
 
+
 }
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11475,19 +11477,34 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-#portfolio p{
-  text-align: justify;
-  background-color: whitesmoke;
-  width: 100%;
-  height: 28%;
-  padding: 0.5em;
-}
-#portfolio div{
-  text-align: justify;
-  padding: 0.5em;
+
+#allProjects{
+  display: flex;
 }
 #projects{
+  display: flex;
+  border: #000;
+ 
+}
+#eachProject{
+  width: 100%;
+  min-height: 15vh;
+  background-color: whitesmoke; 
+}
+#portfolio p{
+  text-align: center;
   padding: 1em;
+}
+#portfolio div{
+  text-align:center;
+  padding: 0.2em;
+  
+}
+.techprt{
+  display: flex;
+}
+.techprt1{
+  flex:1;
 }
 #logo{
   max-width: 5%;
@@ -11502,4 +11519,16 @@ header.masthead h1, header.masthead .h1 {
   width: 100%;
   height: 250px;
   object-fit: cover;
+}
+.tech{
+  display: flex;
+align-items: flex-end;
+}
+.tech ul{
+  text-align: center;
+  list-style-position: inside;
+
+}
+.tech li{
+  padding:0.1em;
 }
